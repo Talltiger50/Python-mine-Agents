@@ -1,7 +1,7 @@
 
 import requests
 import json,time
-
+block="OAK_LOG" #target block
 # URL of the Spigot server hosting the plugin
 url = "http://localhost:8000/jsoncommand"
 aicount=0
@@ -235,7 +235,7 @@ def eval_genomes(genomes, config):
                     # reward system
 
 
-                    istherealog = "OAK_LOG" in blocknames
+                    istherealog = block in blocknames
                     
                 
                     if istherealog:
