@@ -1,0 +1,4 @@
+name: Aicontrol
+version: '${version}'
+main: org.talltiger50.aicontrol.Aicontrol
+api-version: 1.18
